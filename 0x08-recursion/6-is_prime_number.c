@@ -16,7 +16,7 @@ if (i == 1)
 else
 {
 	if (n % i == 0)
-		return (0)
+		return (0);
 	else
 		return (_isitprime(n, i - 1));
 }
